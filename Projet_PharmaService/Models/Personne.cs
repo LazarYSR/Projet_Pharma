@@ -1,3 +1,4 @@
+
 ﻿namespace Projet_PharmaService.Models
 {
     public class Personne
@@ -8,5 +9,8 @@
         private string Adresse { get; set; }
         private string AdresseEmail { get; set; }
         private string Telephone { get; set; }
+
+        private string Cin { get; set; }
+
     }
 }
