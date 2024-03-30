@@ -1,4 +1,6 @@
-﻿namespace Projet_PharmaService.Models
+﻿
+
+namespace Projet_PharmaService.Models
 {
     public class Panier
     {
@@ -15,13 +17,13 @@
 
         public Client client { get; set; }
 
-        public int IdClient { get; set; }
+        public int ClientId { get; set; }
 
-        public Pharmacy pharmacy { get; set; }
+        public Pharmacie pharmacy { get; set; }
 
-        public int IdPharmacy { get; set; }
+        public int PharmaciyId { get; set; }
 
-        public ICollection<Medicament> medicaments { get; set; }
+       // public ICollection<Medicament> medicaments { get; set; }
 
     }
 }
