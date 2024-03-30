@@ -4,7 +4,7 @@
     {
         public int IdFacture { get; set; }
         public Commande Commande { get; set; }
-        //public Paiement Paiement { get; set; }
+        public Paiement Paiement { get; set; }
         public string CommandeId { get; set; }
         public int PaiementId { get; set; }
 

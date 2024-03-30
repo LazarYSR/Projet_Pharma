@@ -23,7 +23,7 @@ namespace Projet_PharmaService.Models
 
         public int PharmaciyId { get; set; }
 
-       // public ICollection<Medicament> medicaments { get; set; }
+        public ICollection<Medicament> medicaments { get; set; }
 
     }
 }

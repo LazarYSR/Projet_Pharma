@@ -21,7 +21,7 @@
 
         public Panier panier { get; set; }
 
-        public int IdPanier { get; set; }
+        public int PanierId { get; set; }
 
     }
 }

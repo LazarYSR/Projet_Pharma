@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bp/CLQX3zVtPbFwuigIZAD4bxMSHGrOE3CcWxDZ9vVTNGo4CvzzbyOeU9SDbETVMc8ztepW3DDCz4l4V/wmDWw==",
+  "dgSpecHash": "pvwd/lzvNAUBCwKvkNDSMz05IShlSTlnQ8gJEXHyuAOhMbtd7gRQidpbMQjXJ23FfWgylrsQbyPSu3bxBO1Mng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\YASSER-PC\\Desktop\\Projet_PharmaService\\Projet_PharmaService\\Projet_PharmaService.csproj",
+  "projectFilePath": "C:\\Users\\YASSER-PC\\Desktop\\Projet_PharmaService\\Projet_Pharma\\Projet_PharmaService\\Projet_PharmaService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\YASSER-PC\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\YASSER-PC\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
