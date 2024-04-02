@@ -1,8 +1,11 @@
-﻿namespace Projet_PharmaService.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Projet_PharmaService.Models
 {
-    public class Admin
+    public class Admin : Personne
     {
 
+        [Key]
         public int Id { get; set; }
 
         public string login { get; set; }
@@ -10,6 +13,8 @@
         public string password { get; set; }
 
         public DateTime DateCreation { get; set; }
+
+        
 
     }
 }

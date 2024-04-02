@@ -1,8 +1,11 @@
-﻿namespace Projet_PharmaService.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Projet_PharmaService.Models
 {
     public class Commande
     {
-        public int Id_Commande { get; set; }
+        [Key]
+        public int CommandeId { get; set; }
         public DateTime DateCommande { get; set; }
         public DateTime HeureCommande { get; set; }
         public String AdresseLivraison { get; set; }

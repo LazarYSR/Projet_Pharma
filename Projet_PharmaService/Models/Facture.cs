@@ -1,8 +1,11 @@
-﻿namespace Projet_PharmaService.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Projet_PharmaService.Models
 {
     public class Facture
     {
-        public int IdFacture { get; set; }
+        [Key]
+        public int FactureId { get; set; }
         public Commande Commande { get; set; }
         public Paiement Paiement { get; set; }
         public string CommandeId { get; set; }

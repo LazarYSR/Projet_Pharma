@@ -1,8 +1,11 @@
-﻿namespace Projet_PharmaService.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Projet_PharmaService.Models
 {
-    public class Livreur
+    public class Livreur : Personne
     {
-           public string Id_Livreur { get; set; }
+        [Key]
+        public string LivreurId { get; set; }
            public string Password { get; set; }
            public string VehiculeUtilise { get; set; }
            public string ZoneLivraison { get; set; }

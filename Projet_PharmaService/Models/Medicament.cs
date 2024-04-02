@@ -1,9 +1,11 @@
-﻿namespace Projet_PharmaService.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Projet_PharmaService.Models
 {
     public class Medicament
     {
-
-        public string Id { get; set; }
+        [Key]
+        public string MedicamentId { get; set; }
 
         public string designation { get; set; }
 

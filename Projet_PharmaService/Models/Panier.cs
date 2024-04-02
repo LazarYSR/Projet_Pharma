@@ -1,11 +1,13 @@
 ﻿
 
+using System.ComponentModel.DataAnnotations;
+
 namespace Projet_PharmaService.Models
 {
     public class Panier
     {
-
-        public int Id { get; set; }
+        [Key]
+        public int PanierId { get; set; }
 
         public double prixTotal { get; set; }
 
@@ -19,11 +21,11 @@ namespace Projet_PharmaService.Models
 
         public int ClientId { get; set; }
 
-        public Pharmacie pharmacy { get; set; }
+        public Pharmacie Pharmacy { get; set; }
 
-        public int PharmaciyId { get; set; }
+        public int PharmacyId { get; set; }
 
-        public ICollection<Medicament> medicaments { get; set; }
+        public ICollection<Medicament> Medicaments { get; set; }
 
     }
 }

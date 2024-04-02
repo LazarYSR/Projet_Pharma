@@ -1,9 +1,12 @@
 ﻿
+using System.ComponentModel.DataAnnotations;
+
 namespace Projet_PharmaService.Models
 {
     public class Notification
     {
-        public int Id_Notification { get; set; }
+        [Key]
+        public int NotificationId { get; set; }
         public int Destinatire { get; set; }
         public String Message { get; set; }
         public DateTime Date { get; set; }

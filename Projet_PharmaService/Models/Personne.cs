@@ -1,6 +1,9 @@
 
-﻿namespace Projet_PharmaService.Models
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Projet_PharmaService.Models
 {
+    [NotMapped]
     public class Personne
     {
         private string Nom { get; set; }

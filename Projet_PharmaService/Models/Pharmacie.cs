@@ -1,10 +1,12 @@
-﻿using System.Security.Principal;
+﻿using System.ComponentModel.DataAnnotations;
+using System.Security.Principal;
 
 namespace Projet_PharmaService.Models
 {
     public class Pharmacie
     {
-        public String Id_Pharmacie { get; set; }
+        [Key]
+        public String PharmacieId { get; set; }
         public String Enseigne { get; set; }
         public String Adresse { get; set; }
         public String Telephone { get; set; }

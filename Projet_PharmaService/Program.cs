@@ -1,7 +1,11 @@
+using Microsoft.EntityFrameworkCore;
+using Projet_PharmaService.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<MyContext>(opt=>{ opt.UseSqlServer(builder.Configuration.GetConnectionString("Cnx")); });
 
 var app = builder.Build();
 
