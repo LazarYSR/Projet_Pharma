@@ -697,3 +697,14 @@ C:\Users\YASSER-PC\Desktop\Projet_PharmaService\Projet_Pharma\Projet_PharmaServi
 C:\Users\YASSER-PC\Desktop\Projet_PharmaService\Projet_Pharma\Projet_PharmaService\obj\Debug\net6.0\Projet_PharmaService.pdb
 C:\Users\YASSER-PC\Desktop\Projet_PharmaService\Projet_Pharma\Projet_PharmaService\obj\Debug\net6.0\Projet_PharmaService.genruntimeconfig.cache
 C:\Users\YASSER-PC\Desktop\Projet_PharmaService\Projet_Pharma\Projet_PharmaService\obj\Debug\net6.0\ref\Projet_PharmaService.dll
+C:\Users\pc\Desktop\pharmaci_prj\Projet_Pharma\Projet_PharmaService\obj\Debug\net6.0\Projet_PharmaService.csproj.AssemblyReference.cache
+C:\Users\pc\Desktop\pharmaci_prj\Projet_Pharma\Projet_PharmaService\obj\Debug\net6.0\Projet_PharmaService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\Desktop\pharmaci_prj\Projet_Pharma\Projet_PharmaService\obj\Debug\net6.0\Projet_PharmaService.AssemblyInfoInputs.cache
+C:\Users\pc\Desktop\pharmaci_prj\Projet_Pharma\Projet_PharmaService\obj\Debug\net6.0\Projet_PharmaService.AssemblyInfo.cs
+C:\Users\pc\Desktop\pharmaci_prj\Projet_Pharma\Projet_PharmaService\obj\Debug\net6.0\Projet_PharmaService.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\pharmaci_prj\Projet_Pharma\Projet_PharmaService\obj\Debug\net6.0\Projet_PharmaService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\pc\Desktop\pharmaci_prj\Projet_Pharma\Projet_PharmaService\obj\Debug\net6.0\Projet_PharmaService.RazorAssemblyInfo.cache
+C:\Users\pc\Desktop\pharmaci_prj\Projet_Pharma\Projet_PharmaService\obj\Debug\net6.0\Projet_PharmaService.RazorAssemblyInfo.cs
+C:\Users\pc\Desktop\pharmaci_prj\Projet_Pharma\Projet_PharmaService\obj\Debug\net6.0\Projet_PharmaService.dll
+C:\Users\pc\Desktop\pharmaci_prj\Projet_Pharma\Projet_PharmaService\obj\Debug\net6.0\refint\Projet_PharmaService.dll
+C:\Users\pc\Desktop\pharmaci_prj\Projet_Pharma\Projet_PharmaService\obj\Debug\net6.0\Projet_PharmaService.pdb
