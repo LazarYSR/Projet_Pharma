@@ -1,12 +1,6 @@
-<<<<<<< HEAD
-﻿
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Security.Permissions;
-=======
-﻿using System.ComponentModel.DataAnnotations;
->>>>>>> 82b36668323bb411fcdf6f5da89e6556ebc0b2e6
-
 namespace Projet_PharmaService.Models
 {
     public class ArchivePanier

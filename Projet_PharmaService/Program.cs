@@ -1,11 +1,20 @@
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using Projet_PharmaService.Data;
+
+using Microsoft.Extensions.DependencyInjection;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddDbContext<MyContext>(opt=>{ opt.UseSqlServer(builder.Configuration.GetConnectionString("Cnx")); });
+builder.Services.AddDbContext<MyContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("Cnx")));
 
 var app = builder.Build();
 

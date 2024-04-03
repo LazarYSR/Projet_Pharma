@@ -1,6 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Migrations.Operations;
-using Microsoft.EntityFrameworkCore.Storage;
 using Projet_PharmaService.Models;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Reflection.Emit;

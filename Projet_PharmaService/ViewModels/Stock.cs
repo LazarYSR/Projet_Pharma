@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Projet_PharmaService.Models;
+using System.ComponentModel.DataAnnotations;
 
 namespace Projet_PharmaService.ViewModels
 {
