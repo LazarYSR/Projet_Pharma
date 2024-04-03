@@ -1,12 +1,24 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Migrations.Operations;
 using Microsoft.EntityFrameworkCore.Storage;
+using Projet_PharmaService.Models;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Reflection.Emit;
+using System.Xml;
 
-namespace Projet_PharmaService.Models
+namespace Projet_PharmaService.Data
 {
-    public class MyContext:DbContext
+    public class MyContext : DbContext
     {
+        public MyContext(DbContextOptions<MyContext> opt) : base(opt)
+        {
+            
+        }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<LigneCommande>().HasNoKey();
+        }
+
         public DbSet<Client> Clients { get; set; }
         public DbSet<Facture> Factures { get; set; }
         public DbSet<Admin> Admins { get; set; }
@@ -24,10 +36,8 @@ namespace Projet_PharmaService.Models
         public DbSet<Statistique> Statistiques { get; set; }
         public DbSet<Stock> Stocks { get; set; }
 
-        public MyContext(DbContextOptions<MyContext> My):base(My)
-        {
-        }
+      
     }
 
-   
+
 }

@@ -1,4 +1,9 @@
-﻿namespace Projet_PharmaService.Models
+﻿
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Security.Permissions;
+
+namespace Projet_PharmaService.Models
 {
     public class ArchivePanier
     {
@@ -20,7 +25,7 @@
         public string modePaiment { get; set; }
 
         public Panier panier { get; set; }
-
+        [ForeignKey(nameof(panier))]
         public int PanierId { get; set; }
 
     }

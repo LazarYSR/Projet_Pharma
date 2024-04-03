@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Projet_PharmaService.Models
 {
@@ -19,11 +20,12 @@ namespace Projet_PharmaService.Models
 
         public string info { get; set; }
 
-
+        
         public Catalog catalog { get; set; }
+        [ForeignKey("catalog")]
 
         public string CatalogId { get; set; }
-
-        public ICollection<LigneCommande> commandes { get; set; }
+        [NotMapped]
+        public ICollection<LigneCommande> Lignecommandes { get; set; }
     }
 }

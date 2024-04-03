@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using Projet_PharmaService.Models;
+using Projet_PharmaService.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 

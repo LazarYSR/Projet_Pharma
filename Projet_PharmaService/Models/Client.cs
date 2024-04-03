@@ -1,4 +1,8 @@
 ﻿
+
+using System.ComponentModel.DataAnnotations;
+using System.Security.Permissions;
+
 namespace Projet_PharmaService.Models
 {
     public class Client: Personne

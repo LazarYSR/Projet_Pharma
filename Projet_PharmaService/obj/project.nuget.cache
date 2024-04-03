@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pvwd/lzvNAUBCwKvkNDSMz05IShlSTlnQ8gJEXHyuAOhMbtd7gRQidpbMQjXJ23FfWgylrsQbyPSu3bxBO1Mng==",
+  "dgSpecHash": "ZmfLypwalhJalhfTi8AmlBUkfs5cT6euHAfcqsINj44TOgnGR9m8j3+psPeX+0ndjMZ6yNjVTu+mLgup7Y8ssA==",
   "success": true,
   "projectFilePath": "C:\\Users\\YASSER-PC\\Desktop\\Projet_PharmaService\\Projet_Pharma\\Projet_PharmaService\\Projet_PharmaService.csproj",
   "expectedPackageFiles": [
@@ -144,6 +144,7 @@
     "C:\\Users\\YASSER-PC\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\YASSER-PC\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
     "C:\\Users\\YASSER-PC\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
+    "C:\\Users\\YASSER-PC\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\YASSER-PC\\.nuget\\packages\\system.composition\\1.0.31\\system.composition.1.0.31.nupkg.sha512",
     "C:\\Users\\YASSER-PC\\.nuget\\packages\\system.composition.attributedmodel\\1.0.31\\system.composition.attributedmodel.1.0.31.nupkg.sha512",
     "C:\\Users\\YASSER-PC\\.nuget\\packages\\system.composition.convention\\1.0.31\\system.composition.convention.1.0.31.nupkg.sha512",
