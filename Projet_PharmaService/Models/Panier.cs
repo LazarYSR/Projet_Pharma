@@ -1,5 +1,6 @@
 ﻿
 
+using Projet_PharmaService.ViewModels;
 using System.ComponentModel.DataAnnotations;
 
 namespace Projet_PharmaService.Models
@@ -27,5 +28,12 @@ namespace Projet_PharmaService.Models
 
         public ICollection<Medicament> Medicaments { get; set; }
 
+
+        public Panier(PanierVM uvm)
+        {
+            this.prixTotal = uvm.prixTotal;
+            this.satuts = uvm.satuts;
+            this.dateCreation = DateTime.Now;
+        }
     }
 }

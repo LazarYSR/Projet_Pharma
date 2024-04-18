@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace Projet_PharmaService.ViewModels
 {
     [NotMapped]
-    public class Personne
+    public class PersonneVM
     {
         private string Nom { get; set; }
         private string Prenom { get; set; }

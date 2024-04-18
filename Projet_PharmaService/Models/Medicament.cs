@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Projet_PharmaService.ViewModels;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Projet_PharmaService.Models
@@ -16,7 +17,7 @@ namespace Projet_PharmaService.Models
 
         public double prixUnitaire { get;}
 
-        public string image { get; set; }
+        public IFormFile image { get; set; }
 
         public string info { get; set; }
 
@@ -27,5 +28,14 @@ namespace Projet_PharmaService.Models
         public string CatalogId { get; set; }
         [NotMapped]
         public ICollection<LigneCommande> Lignecommandes { get; set; }
+
+        public Medicament(MedicamentVM uvm)
+        {
+            this.designation = uvm.designation;
+            this.form = uvm.form;
+            this.prescription = uvm.prescription;
+            this.image = uvm.image;
+            this.info = uvm.info;
+        }
     }
 }

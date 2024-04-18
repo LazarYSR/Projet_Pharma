@@ -1,8 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Projet_PharmaService.Models;
+using System.ComponentModel.DataAnnotations;
 
 namespace Projet_PharmaService.ViewModels
 {
-    public class Livreur : Personne
+    public class LivreurVM : PersonneVM
     {
         [Key]
         public string LivreurId { get; set; }
@@ -29,7 +30,7 @@ namespace Projet_PharmaService.ViewModels
         [Display(Name = "Photo")]
         public string Photo { get; set; }
 
-        public ICollection<Commande> Commandes { get; set; }
+        public ICollection<CommandeVM> Commandes { get; set; }
     }
 }
 

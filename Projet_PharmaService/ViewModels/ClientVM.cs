@@ -2,7 +2,7 @@
 
 namespace Projet_PharmaService.ViewModels
 {
-    public class Client: Personne
+    public class ClientVM: PersonneVM
     {
         [Key]
         public string Id { get; set; }
@@ -18,13 +18,13 @@ namespace Projet_PharmaService.ViewModels
         [Display(Name = "État")]
         public string Etat { get; set; }
 
-
         [Required(ErrorMessage = "Le champ {0} est requis.")]
         [Display(Name = "Mot de passe")]
+        [DataType(DataType.Password)]
         public string Password { get; set; }
  
-        public ICollection<Notification> Notifications { get; set; }
-        public ICollection<Panier> Paniers { get; set; }
+        public ICollection<NotificationVM> Notifications { get; set; }
+        public ICollection<PanierVM> Paniers { get; set; }
 
 
     }

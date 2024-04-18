@@ -20,12 +20,11 @@ namespace Projet_PharmaService.Data
         public DbSet<Client> Clients { get; set; }
         public DbSet<Facture> Factures { get; set; }
         public DbSet<Admin> Admins { get; set; }
-        public DbSet<ArchivePanier> ArchivePanier { get; set; }
+        public DbSet<ArchivePanier> ArchivePaniers { get; set; }
         public DbSet<Catalog> Catalogs { get; set; }
         public DbSet<Commande> Commandes { get; set; }
-        public DbSet<LigneCommande> LigneCommandes { get; set; }
         public DbSet<Livraison> Livraisons { get; set; }
-        public DbSet<Livreur> Livreur { get; set; }
+        public DbSet<Livreur> Livreurs { get; set; }
         public DbSet<Medicament> Medicaments { get; set; }
         public DbSet<Notification> Notifications { get; set; }
         public DbSet<Paiement> Paiements { get; set; }

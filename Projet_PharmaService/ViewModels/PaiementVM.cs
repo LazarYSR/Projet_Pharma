@@ -2,11 +2,11 @@
 
 namespace Projet_PharmaService.ViewModels
 {
-    public class Paiement
+    public class PaiementVM
     {
         [Key]
         public int PaiementId { get; set; }
         public String PaiementMode { get; set; }
-        public ICollection<Facture> Factures { get; set; }
+        public ICollection<FactureVM> Factures { get; set; }
     }
 }

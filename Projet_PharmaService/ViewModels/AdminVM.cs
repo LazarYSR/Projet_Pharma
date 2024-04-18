@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Projet_PharmaService.ViewModels
 {
-    public class Admin : Personne
+    public class AdminVM : PersonneVM
     {
 
         [Required]
@@ -14,8 +14,6 @@ namespace Projet_PharmaService.ViewModels
         public string password { get; set; }
 
         public DateTime DateCreation { get; set; }
-
-        
 
     }
 }

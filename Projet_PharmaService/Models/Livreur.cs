@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Projet_PharmaService.ViewModels;
+using System.ComponentModel.DataAnnotations;
 
 namespace Projet_PharmaService.Models
 {
@@ -12,8 +13,21 @@ namespace Projet_PharmaService.Models
            public string Status { get; set; }
            public string NoteSatisfais { get; set; }
            public string Permis { get; set; }
-           public string Photo { get; set; }
+           public IFormFile Photo { get; set; }
 
         public ICollection<Commande> Commandes { get; set; }
+
+
+        public Livreur(LivreurVM uvm)
+        {
+            this.Password = uvm.Password;
+            this.VehiculeUtilise = uvm.VehiculeUtilise;
+            this.ZoneLivraison = uvm.ZoneLivraison;
+            this.Status = uvm.Status;
+            this.NoteSatisfais = uvm.NoteSatisfais;
+            this.Permis = uvm.Permis;
+            this.Photo = uvm.Photo;
+
+        }
     }
 }

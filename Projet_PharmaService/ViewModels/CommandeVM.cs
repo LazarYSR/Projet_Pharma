@@ -1,9 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Projet_PharmaService.Models;
+using System.ComponentModel.DataAnnotations;
 
 namespace Projet_PharmaService.ViewModels
 
 {
-    public class Commande
+    public class CommandeVM
     {
         [Key]
         public int CommandeId { get; set; }

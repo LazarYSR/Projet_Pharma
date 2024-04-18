@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Projet_PharmaService.ViewModels;
+using System.ComponentModel.DataAnnotations;
 using System.Security.Permissions;
 namespace Projet_PharmaService.Models
 {
@@ -14,6 +15,12 @@ namespace Projet_PharmaService.Models
         public ICollection<Notification> Notifications { get; set; }
         public ICollection<Panier> Paniers { get; set; }
 
-
+        public Client(ClientVM uvm)
+        {
+            this.Cin = uvm.Cin;
+            this.Mutuelle = uvm.Mutuelle;
+            this.Etat = uvm.Etat;
+            this.Password = uvm.Password;        
+        }
     }
 }

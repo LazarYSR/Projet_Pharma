@@ -2,12 +2,12 @@
 
 namespace Projet_PharmaService.ViewModels
 {
-    public class Facture
+    public class FactureVM
     {
         [Key]
         public int FactureId { get; set; }
-        public Commande Commande { get; set; }
-        public Paiement Paiement { get; set; }
+        public CommandeVM Commande { get; set; }
+        public PaiementVM Paiement { get; set; }
         public string CommandeId { get; set; }
         public int PaiementId { get; set; }
 

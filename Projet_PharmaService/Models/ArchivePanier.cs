@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Projet_PharmaService.ViewModels;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Security.Permissions;
 namespace Projet_PharmaService.Models
@@ -26,5 +27,14 @@ namespace Projet_PharmaService.Models
         [ForeignKey(nameof(panier))]
         public int PanierId { get; set; }
 
+        public ArchivePanier(ArchivePanierVM uvm)
+        {
+            this.time = DateTime.Now;
+            this.motif = uvm.motif;
+            this.statuts = uvm.statuts;
+            this.prixTotal = uvm.prixTotal;
+            this.livraison = uvm.livraison;
+            this.modePaiment = uvm.modePaiment;
+        }
     }
 }

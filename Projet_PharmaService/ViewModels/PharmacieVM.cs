@@ -4,11 +4,10 @@ using System.Security.Principal;
 
 namespace Projet_PharmaService.ViewModels
 {
-    public class Pharmacie
+    public class PharmacieVM
     {
         [Key]
         public string PharmacieId { get; set; }
-
         [Required(ErrorMessage = "Le champ {0} est requis.")]
         [Display(Name = "Enseigne")]
         public string Enseigne { get; set; }
@@ -34,8 +33,12 @@ namespace Projet_PharmaService.ViewModels
         [Display(Name = "Code APE")]
         public string CodeAPE { get; set; }
 
-        public ICollection<Notification> Notifications { get; set; }
-        public ICollection<Panier> Paniers { get; set; }
+        [Display(Name = "Client")]
+        [Compare("QR-Client",ErrorMessage ="QR doit etres equivalent")]
+        public string ConfirmationQR { get; set; }
+
+        public ICollection<NotificationVM> Notifications { get; set; }
+        public ICollection<PanierVM> Paniers { get; set; }
     }
 }
 

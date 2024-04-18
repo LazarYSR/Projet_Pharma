@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Projet_PharmaService.ViewModels;
+using System.ComponentModel.DataAnnotations;
+using System.Configuration;
 
 namespace Projet_PharmaService.Models
 {
@@ -14,7 +16,12 @@ namespace Projet_PharmaService.Models
 
         public DateTime DateCreation { get; set; }
 
-        
+        public Admin(AdminVM uvm)
+        {
+            this.login = uvm.login;
+            this.password = uvm.password;
+            this.DateCreation = DateTime.Now;
+        }
 
     }
 }

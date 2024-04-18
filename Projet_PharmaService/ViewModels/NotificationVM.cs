@@ -2,7 +2,7 @@
 
 namespace Projet_PharmaService.ViewModels
 {
-    public class Notification
+    public class NotificationVM
     {
         [Key]
         public int NotificationId { get; set; }
@@ -25,10 +25,10 @@ namespace Projet_PharmaService.ViewModels
         [Display(Name = "Statut")]
         public string Status { get; set; }
 
-        public Livreur Livreur { get; set; }
+        public LivreurVM Livreur { get; set; }
         public int LivreurId { get; set; }
 
-        public Pharmacie Pharmacie { get; set; }
+        public PharmacieVM Pharmacie { get; set; }
         public int PharmacieId { get; set; }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Projet_PharmaService.ViewModels;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Projet_PharmaService.Models
@@ -17,5 +18,12 @@ namespace Projet_PharmaService.Models
         public DateTime DateFacture { get; set; }
         public double PrixTotalFacture { get; set; }
         public double TvaFacture { get; set; }
+
+        public Facture(FactureVM uvm)
+        {
+            this.DateFacture =DateTime.Now;
+            this.PrixTotalFacture =uvm.PrixTotalFacture;
+            this.TvaFacture = uvm.TvaFacture;
+        }
     }
 }

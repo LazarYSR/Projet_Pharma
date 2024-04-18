@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Projet_PharmaService.ViewModels
 {
-    public class Catalog
+    public class CatalogVM
     {
         [Key]
         public int Id { get; set; }
@@ -13,6 +13,6 @@ namespace Projet_PharmaService.ViewModels
         public string category { get; set; }
       
         [Display(Name = "Médicaments")]
-        public ICollection<Medicament> medicaments { get; set; }
+        public ICollection<MedicamentVM> medicaments { get; set; }
     }
 }

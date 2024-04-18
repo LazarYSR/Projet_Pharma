@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Projet_PharmaService.ViewModels
 {
-    public class Stock
+    public class StockVM
     {
         [Key]
         [Display(Name = "Quantité")]
@@ -15,11 +15,11 @@ namespace Projet_PharmaService.ViewModels
         [Display(Name = "Seuil de réapprovisionnement")]
         public double seuilReaprovisionnement { get; set; }
 
-        public Pharmacie pharmacie { get; set; }
+        public PharmacieVM pharmacie { get; set; }
 
         public string PharmacieId { get; set; }
 
-        public Medicament Medicament { get; set; }
+        public MedicamentVM Medicament { get; set; }
 
         public string MedicamentId { get; set; }
 

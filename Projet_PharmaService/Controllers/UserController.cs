@@ -8,7 +8,10 @@ namespace Projet_PharmaService.Controllers
     {
 
         MyContext db;
-        public UserController(MyContext db) { this.db = db; }
+        public UserController(MyContext db) 
+        { 
+            this.db = db; 
+        }
         public IActionResult Principal()
         {
             return View("Principal");

@@ -2,7 +2,7 @@
 
 namespace Projet_PharmaService.ViewModels
 {
-    public class Medicament
+    public class MedicamentVM
     {
         [Key]
         public string MedicamentId { get; set; }
@@ -20,10 +20,10 @@ namespace Projet_PharmaService.ViewModels
         public string info { get; set; }
 
 
-        public Catalog catalog { get; set; }
+        public CatalogVM catalog { get; set; }
 
         public string CatalogId { get; set; }
 
-        public ICollection<LigneCommande> commandes { get; set; }
+        
     }
 }

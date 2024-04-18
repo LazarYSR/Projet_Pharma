@@ -10791,24 +10791,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\YASSER-PC\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\pc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\YASSER-PC\\Desktop\\Projet_PharmaService\\Projet_Pharma\\Projet_PharmaService\\Projet_PharmaService.csproj",
+      "projectUniqueName": "C:\\Users\\pc\\Desktop\\pharmaci_prj\\Projet_Pharma\\Projet_PharmaService\\Projet_PharmaService.csproj",
       "projectName": "Projet_PharmaService",
-      "projectPath": "C:\\Users\\YASSER-PC\\Desktop\\Projet_PharmaService\\Projet_Pharma\\Projet_PharmaService\\Projet_PharmaService.csproj",
-      "packagesPath": "C:\\Users\\YASSER-PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\YASSER-PC\\Desktop\\Projet_PharmaService\\Projet_Pharma\\Projet_PharmaService\\obj\\",
+      "projectPath": "C:\\Users\\pc\\Desktop\\pharmaci_prj\\Projet_Pharma\\Projet_PharmaService\\Projet_PharmaService.csproj",
+      "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pc\\Desktop\\pharmaci_prj\\Projet_Pharma\\Projet_PharmaService\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\YASSER-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10816,7 +10811,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -10877,7 +10871,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

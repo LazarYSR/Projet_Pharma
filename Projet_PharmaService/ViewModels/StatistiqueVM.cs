@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Projet_PharmaService.statistiques
 {
-    public class Statistique
+    public class StatistiqueVM
     {
             [Key]
             public string StatistiqueID { get; set; }
@@ -24,7 +24,7 @@ namespace Projet_PharmaService.statistiques
             [Display(Name = "Marge bénéficiaire")]
             public double margeBeneficiaire { get; set; }
 
-            public Stock Stock { get; set; }
+            public StockVM Stock { get; set; }
             public string StockId { get; set; }
 
         }

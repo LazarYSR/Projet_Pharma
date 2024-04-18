@@ -1,4 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore;
+using Projet_PharmaService.statistiques;
+using Projet_PharmaService.ViewModels;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Projet_PharmaService.Models
@@ -19,5 +22,13 @@ namespace Projet_PharmaService.Models
        
         public string StockId { get; set; }
 
+        public Statistique(StatistiqueVM uvm)
+        {
+            this.period = uvm.period;
+            this.nombreVentes = uvm.nombreVentes;
+            this.chifreDaffaire = uvm.chifreDaffaire;
+            this.margeBeneficiaire = uvm.margeBeneficiaire;
+           // this.Stock = uvm.Stock;
+        }
     }
 }

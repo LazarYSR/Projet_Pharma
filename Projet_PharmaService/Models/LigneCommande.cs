@@ -1,4 +1,5 @@
 ﻿
+using Projet_PharmaService.ViewModels;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Projet_PharmaService.Models
@@ -13,5 +14,6 @@ namespace Projet_PharmaService.Models
         public string CommandeId { get; set; }
         public string PharmacieId { get; set; }
         public int Qte { get; set; }
+      
     }
 }

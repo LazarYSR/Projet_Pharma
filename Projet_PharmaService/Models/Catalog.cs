@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Projet_PharmaService.ViewModels;
+using System.ComponentModel.DataAnnotations;
 
 namespace Projet_PharmaService.Models
 {
@@ -11,5 +12,9 @@ namespace Projet_PharmaService.Models
 
 
         public ICollection<Medicament> medicaments { get; set; }
+        public Catalog(CatalogVM uvm)
+        {
+            this.category = uvm.category;
+        }
     }
 }

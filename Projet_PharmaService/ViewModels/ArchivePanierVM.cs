@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Projet_PharmaService.ViewModels
 {
-    public class ArchivePanier
+    public class ArchivePanierVM
     {
 
         [Key]
@@ -33,7 +33,7 @@ namespace Projet_PharmaService.ViewModels
         [Display(Name = "Mode de Paiement")]
         public string modePaiment { get; set; }
 
-        public Panier panier { get; set; }
+        public PanierVM panier { get; set; }
 
         public int PanierId { get; set; }
 

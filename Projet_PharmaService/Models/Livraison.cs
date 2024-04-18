@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Projet_PharmaService.ViewModels;
+using System.ComponentModel.DataAnnotations;
 
 namespace Projet_PharmaService.Models
 {
@@ -11,6 +12,10 @@ namespace Projet_PharmaService.Models
         public DateTime dateLivraison { get; set; }
 
 
+        public Livraison(LivraisonVM uvm)
+        {
+            this.dateLivraison = DateTime.Now;
 
+        }
     }
 }

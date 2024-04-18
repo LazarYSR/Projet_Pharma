@@ -2,7 +2,7 @@
 
 namespace Projet_PharmaService.ViewModels
 {
-    public class Livraison
+    public class LivraisonVM
     {
 
         [Key]

@@ -1,4 +1,5 @@
 ﻿
+using Projet_PharmaService.ViewModels;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -18,6 +19,15 @@ namespace Projet_PharmaService.Models
         public  Pharmacie Pharmacie { get; set; }
         [ForeignKey("Pharmacie")]
         public string PharmacieId { get; set; }
+
+        public Notification(NotificationVM uvm)
+        {
+            this.Destinatire = uvm.Destinatire;
+            this.Message = uvm.Message;
+            this.Date = DateTime.Now;
+            this.Heure = DateTime.Now;
+            this.Status = uvm.Status;
+        }
 
     }
 }
