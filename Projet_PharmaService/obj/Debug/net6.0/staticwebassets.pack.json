@@ -5,8 +5,13 @@
       "PackagePath": "staticwebassets\\Projet_PharmaService.bundle.scp.css"
     },
     {
+<<<<<<< HEAD
       "Id": "C:\\Users\\pc\\Desktop\\pharmaci_prj\\Projet_Pharma\\Projet_PharmaService\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+=======
+      "Id": "C:\\Users\\YASSER-PC\\Desktop\\Projet_PharmaService\\Projet_Pharma\\Projet_PharmaService\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+>>>>>>> b72ab161e59453237fa514863de66e6dbedf3aac
     },
     {
       "Id": "C:\\Users\\pc\\Desktop\\pharmaci_prj\\Projet_Pharma\\Projet_PharmaService\\wwwroot\\favicon.ico",

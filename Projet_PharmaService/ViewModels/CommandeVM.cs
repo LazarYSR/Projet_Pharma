@@ -30,7 +30,7 @@ namespace Projet_PharmaService.ViewModels
         public Livreur Livreur { get; set; }
         public int LivreurId { get; set; }
 
-        public ICollection<LigneCommande> LigneCommades { get; set; }
+        public ICollection<Medicament> Medicaments { get; set; }
     }
 
 

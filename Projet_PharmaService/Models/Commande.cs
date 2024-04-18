@@ -7,7 +7,7 @@ namespace Projet_PharmaService.Models
     public class Commande
     {
         [Key]
-        public string CommandeId { get; set; }
+        public int CommandeId { get; set; }
         public DateTime DateCommande { get; set; }
         public DateTime HeureCommande { get; set; }
         public string AdresseLivraison { get; set; }
@@ -16,8 +16,8 @@ namespace Projet_PharmaService.Models
         public Livreur Livreur{ get; set; }
         [ForeignKey(nameof(Livreur))]
         public int LivreurId { get; set; }
-        [NotMapped]
-        public ICollection<LigneCommande> LigneCommades { get; set; }
+        
+        public ICollection<Medicament> Medicament { get; set; }
 
         public Commande(CommandeVM uvm)
         {

@@ -8,7 +8,7 @@ namespace Projet_PharmaService.Models
     public class Pharmacie
     {
         [Key]
-        public string PharmacieId { get; set; }
+        public int PharmacieId { get; set; }
         public string Enseigne { get; set; }
         public string Adresse { get; set; }
         public string Telephone { get; set; }

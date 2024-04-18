@@ -6,7 +6,7 @@ namespace Projet_PharmaService.Models
     public class Catalog
     {
         [Key]
-        public string Id { get; set; }
+        public int Id { get; set; }
 
         public string category { get; set; }
 

@@ -7,7 +7,7 @@ namespace Projet_PharmaService.ViewModels
 
         [Key]
         public int Id { get; set; }
-
+        [Required]
         public DateTime dateLivraison { get; set; }
 
 

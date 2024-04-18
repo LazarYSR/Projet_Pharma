@@ -7,7 +7,7 @@ namespace Projet_PharmaService.Models
     public class Medicament
     {
         [Key]
-        public string MedicamentId { get; set; }
+        public int MedicamentId { get; set; }
 
         public string designation { get; set; }
 
@@ -25,6 +25,7 @@ namespace Projet_PharmaService.Models
         public Catalog catalog { get; set; }
         [ForeignKey("catalog")]
 
+<<<<<<< HEAD
         public string CatalogId { get; set; }
         [NotMapped]
         public ICollection<LigneCommande> Lignecommandes { get; set; }
@@ -37,5 +38,11 @@ namespace Projet_PharmaService.Models
             this.image = uvm.image;
             this.info = uvm.info;
         }
+=======
+        public int CatalogId { get; set; }
+        
+        public Commande Commande { get; set; }
+        public int CommandeId { get; set; }
+>>>>>>> b72ab161e59453237fa514863de66e6dbedf3aac
     }
 }

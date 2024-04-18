@@ -6,7 +6,7 @@ namespace Projet_PharmaService.Models
     public class Livreur : Personne
     {
         [Key]
-        public string LivreurId { get; set; }
+        public int LivreurId { get; set; }
            public string Password { get; set; }
            public string VehiculeUtilise { get; set; }
            public string ZoneLivraison { get; set; }
