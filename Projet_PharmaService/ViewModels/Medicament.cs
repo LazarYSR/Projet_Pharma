@@ -6,24 +6,24 @@ namespace Projet_PharmaService.ViewModels
     {
         [Key]
         public string MedicamentId { get; set; }
-
+        [Required]
         public string designation { get; set; }
-
+        [Required]
         public string form { get; set; }
-
+        [Required]
         public string prescription { get; set; }
-
+        [Required]
         public double prixUnitaire { get;}
-
-        public string image { get; set; }
-
+        [Required]
+        public IFormFile image { get; set; }
+        [Required]
         public string info { get; set; }
 
-
+        [Required]
         public Catalog catalog { get; set; }
-
+        [Required]
         public string CatalogId { get; set; }
-
-        public ICollection<LigneCommande> commandes { get; set; }
+        [Required]
+        public int CommandeId { get; set; }
     }
 }

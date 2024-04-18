@@ -28,8 +28,8 @@ namespace Projet_PharmaService.ViewModels
 
         [Display(Name = "Photo")]
         public string Photo { get; set; }
-
-        public ICollection<Commande> Commandes { get; set; }
+        [Required]
+        public int CommandeId { get; set; }
     }
 }
 

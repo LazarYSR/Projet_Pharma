@@ -6,7 +6,7 @@ namespace Projet_PharmaService.Models
     public class Statistique
     {
         [Key]
-        public string StatistiqueID { get; set; }
+        public int StatistiqueID { get; set; }
         public string period {  get; set; }
 
         public int nombreVentes { get; set; }
@@ -17,7 +17,7 @@ namespace Projet_PharmaService.Models
         [ForeignKey(nameof(StockId))]
         public Stock Stock { get; set; }
        
-        public string StockId { get; set; }
+        public int StockId { get; set; }
 
     }
 }

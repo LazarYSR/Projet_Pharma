@@ -12,7 +12,6 @@ namespace Projet_PharmaService.Models
         private string Adresse { get; set; }
         private string AdresseEmail { get; set; }
         private string Telephone { get; set; }
-
         private string Cin { get; set; }
 
     }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Hsev1RRGXcFJ7xzvI/wWesg7S6sScAn/YrjqdoLYNXM=",
+  "Hash": "F9tLHDb3Pk+OBGmIcKhTRMHuQUo9U6QH9FeGuTdy/zc=",
   "Source": "Projet_PharmaService",
   "BasePath": "_content/Projet_PharmaService",
   "Mode": "Default",
@@ -51,12 +51,12 @@
       "OriginalItemSpec": "C:\\Users\\YASSER-PC\\Desktop\\Projet_PharmaService\\Projet_Pharma\\Projet_PharmaService\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Projet_PharmaService.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\YASSER-PC\\Desktop\\Projet_PharmaService\\Projet_Pharma\\Projet_PharmaService\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\YASSER-PC\\Desktop\\Projet_PharmaService\\Projet_Pharma\\Projet_PharmaService\\wwwroot\\css\\style.css",
       "SourceId": "Projet_PharmaService",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\YASSER-PC\\Desktop\\Projet_PharmaService\\Projet_Pharma\\Projet_PharmaService\\wwwroot\\",
       "BasePath": "_content/Projet_PharmaService",
-      "RelativePath": "css/site.css",
+      "RelativePath": "css/style.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -65,7 +65,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
       "Identity": "C:\\Users\\YASSER-PC\\Desktop\\Projet_PharmaService\\Projet_Pharma\\Projet_PharmaService\\wwwroot\\favicon.ico",

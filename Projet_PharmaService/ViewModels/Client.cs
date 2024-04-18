@@ -7,7 +7,7 @@ namespace Projet_PharmaService.ViewModels
         [Key]
         public string Id { get; set; }
 
-        [Required(ErrorMessage = "Le champ est invali d. ")]
+        [Required(ErrorMessage = "Le champ est invalid. ")]
         [Display(Name = "CIN")]
         public string Cin { get; set; }
        
