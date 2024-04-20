@@ -12,8 +12,6 @@ namespace Projet_PharmaService.Models
 
         public double prixTotal { get; set; }
 
-        public int codePrmo { get; set; }
-
         public string satuts { get; set; }
 
         public DateTime dateCreation { get; set; }

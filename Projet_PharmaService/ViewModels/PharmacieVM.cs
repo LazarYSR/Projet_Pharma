@@ -1,4 +1,5 @@
 ﻿
+using Projet_PharmaService.Models;
 using System.ComponentModel.DataAnnotations;
 using System.Security.Principal;
 
@@ -30,15 +31,8 @@ namespace Projet_PharmaService.ViewModels
         [Display(Name = "Site Web")]
         public string SiteWeb { get; set; }
 
-        [Display(Name = "Code APE")]
-        public string CodeAPE { get; set; }
-
-        [Display(Name = "Client")]
-        [Compare("QR-Client",ErrorMessage ="QR doit etres equivalent")]
-        public string ConfirmationQR { get; set; }
-
-        public ICollection<NotificationVM> Notifications { get; set; }
-        public ICollection<PanierVM> Paniers { get; set; }
+        public ICollection<Notification> Notifications { get; set; }
+        public ICollection<Panier> Paniers { get; set; }
     }
 }
 

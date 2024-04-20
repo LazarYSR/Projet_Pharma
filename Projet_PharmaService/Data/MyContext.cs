@@ -20,10 +20,6 @@ namespace Projet_PharmaService.Data
         public DbSet<ArchivePanier> ArchivePaniers { get; set; }
         public DbSet<Catalog> Catalogs { get; set; }
         public DbSet<Commande> Commandes { get; set; }
-<<<<<<< HEAD
-=======
-     
->>>>>>> b72ab161e59453237fa514863de66e6dbedf3aac
         public DbSet<Livraison> Livraisons { get; set; }
         public DbSet<Livreur> Livreurs { get; set; }
         public DbSet<Medicament> Medicaments { get; set; }

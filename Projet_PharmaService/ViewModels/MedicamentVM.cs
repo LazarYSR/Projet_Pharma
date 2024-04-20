@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Projet_PharmaService.Models;
+using System.ComponentModel.DataAnnotations;
 
 namespace Projet_PharmaService.ViewModels
 {
@@ -18,21 +19,13 @@ namespace Projet_PharmaService.ViewModels
         public IFormFile image { get; set; }
         [Required]
         public string info { get; set; }
-
-<<<<<<< HEAD:Projet_PharmaService/ViewModels/MedicamentVM.cs
-
-        public CatalogVM catalog { get; set; }
-
-        public string CatalogId { get; set; }
-
-        
-=======
         [Required]
         public Catalog catalog { get; set; }
-        [Required]
         public string CatalogId { get; set; }
         [Required]
+
+        public Commande Commande { get; set; }
         public int CommandeId { get; set; }
->>>>>>> b72ab161e59453237fa514863de66e6dbedf3aac:Projet_PharmaService/ViewModels/Medicament.cs
+
     }
 }

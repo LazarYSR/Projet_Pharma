@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Projet_PharmaService.Models;
+using System.ComponentModel.DataAnnotations;
 
 namespace Projet_PharmaService.ViewModels
 {
@@ -22,9 +23,12 @@ namespace Projet_PharmaService.ViewModels
         [Display(Name = "Mot de passe")]
         [DataType(DataType.Password)]
         public string Password { get; set; }
- 
-        public ICollection<NotificationVM> Notifications { get; set; }
-        public ICollection<PanierVM> Paniers { get; set; }
+
+        [Required]
+        public ICollection<Notification> Notifications { get; set; }
+
+        [Required]
+        public ICollection<Panier> Paniers { get; set; }
 
 
     }

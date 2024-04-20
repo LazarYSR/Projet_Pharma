@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Projet_PharmaService.Models;
+using System.ComponentModel.DataAnnotations;
 
 namespace Projet_PharmaService.ViewModels
 {
@@ -10,7 +11,9 @@ namespace Projet_PharmaService.ViewModels
         [Required]
         public DateTime dateLivraison { get; set; }
 
-
+        [Display(Name = "Client")]
+        [Compare(nameof(Commande.QR), ErrorMessage = "QR doit etres equivalent")]
+        public string ConfirmationQR { get; set; }
 
     }
 }

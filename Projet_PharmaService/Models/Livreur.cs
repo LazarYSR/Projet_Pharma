@@ -18,8 +18,16 @@ namespace Projet_PharmaService.Models
         public ICollection<Commande> Commandes { get; set; }
 
 
-        public Livreur(LivreurVM uvm)
+        public Livreur(LivreurVM uvm):base(uvm)
         {
+            this.Cin = uvm.Cin;
+            this.Adresse = uvm.Adresse;
+            this.Prenom = uvm.Prenom;
+            this.DateNaissance = uvm.DateNaissance;
+            this.Nom = uvm.Nom;
+            this.AdresseEmail = uvm.AdresseEmail;
+            this.Telephone = uvm.Telephone;
+            this.Commandes = uvm.Commandes;
             this.Password = uvm.Password;
             this.VehiculeUtilise = uvm.VehiculeUtilise;
             this.ZoneLivraison = uvm.ZoneLivraison;

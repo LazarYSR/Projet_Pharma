@@ -16,8 +16,6 @@ namespace Projet_PharmaService.Models
         public int CodePostal { get; set; }
         public string Ville { get; set; }
         public string SiteWeb { get; set; }
-        public string CodeAPE { get; set; }
-        public string ConfirmationQR { get; set; }
         public Stock? Stock { get; set; }
      
         public ICollection<Notification> Notifications { get; set; }
@@ -32,8 +30,6 @@ namespace Projet_PharmaService.Models
             this.Ville = uvm.Ville;
             this.Telephone = uvm.Telephone;
             this.SiteWeb = uvm.SiteWeb;
-            this.CodeAPE = uvm.CodeAPE;
-            this.ConfirmationQR = uvm.ConfirmationQR;
         }
     }
 }

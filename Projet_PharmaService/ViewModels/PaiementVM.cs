@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Projet_PharmaService.Models;
+using System.ComponentModel.DataAnnotations;
 
 namespace Projet_PharmaService.ViewModels
 {
@@ -7,6 +8,6 @@ namespace Projet_PharmaService.ViewModels
         [Key]
         public int PaiementId { get; set; }
         public String PaiementMode { get; set; }
-        public ICollection<FactureVM> Factures { get; set; }
+        public ICollection<Facture> Factures { get; set; }
     }
 }

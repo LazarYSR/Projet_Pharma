@@ -25,7 +25,8 @@ namespace Projet_PharmaService.Models
             this.HeureCommande = DateTime.Now;
             this.AdresseLivraison = uvm.AdresseLivraison;
             this.SuiviLivraison = uvm.SuiviLivraison;
-            //this.QR =uvm.QR;
+           // this.QR = uvm.QR;
+
         }
     }
 }

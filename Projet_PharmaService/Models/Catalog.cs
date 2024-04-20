@@ -14,6 +14,7 @@ namespace Projet_PharmaService.Models
         public ICollection<Medicament> medicaments { get; set; }
         public Catalog(CatalogVM uvm)
         {
+            this.Id=uvm.Id; 
             this.category = uvm.category;
         }
     }

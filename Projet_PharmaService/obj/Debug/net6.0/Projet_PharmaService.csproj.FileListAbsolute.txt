@@ -946,3 +946,4 @@ C:\Users\pc\Desktop\pharmaci_prj\Projet_Pharma\Projet_PharmaService\obj\Debug\ne
 C:\Users\pc\Desktop\pharmaci_prj\Projet_Pharma\Projet_PharmaService\obj\Debug\net6.0\Projet_PharmaService.csproj.CopyComplete
 C:\Users\pc\Desktop\pharmaci_prj\Projet_Pharma\Projet_PharmaService\obj\Debug\net6.0\Projet_PharmaService.genruntimeconfig.cache
 C:\Users\pc\Desktop\pharmaci_prj\Projet_Pharma\Projet_PharmaService\obj\Debug\net6.0\ref\Projet_PharmaService.dll
+C:\Users\YASSER-PC\Desktop\Projet_PharmaService\Projet_Pharma\Projet_PharmaService\bin\Debug\net6.0\QRCoder.dll

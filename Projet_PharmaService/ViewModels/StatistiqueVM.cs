@@ -1,4 +1,5 @@
-﻿using Projet_PharmaService.ViewModels;
+﻿using Projet_PharmaService.Models;
+using Projet_PharmaService.ViewModels;
 using System.ComponentModel.DataAnnotations;
 
 namespace Projet_PharmaService.statistiques
@@ -24,7 +25,7 @@ namespace Projet_PharmaService.statistiques
             [Display(Name = "Marge bénéficiaire")]
             public double margeBeneficiaire { get; set; }
 
-            public StockVM Stock { get; set; }
+            public Stock Stock { get; set; }
             public string StockId { get; set; }
 
         }

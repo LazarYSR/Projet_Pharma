@@ -1,18 +1,21 @@
+using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Runtime.CompilerServices;
+using System.Security.Policy;
 
 namespace Projet_PharmaService.ViewModels
 {
-    [NotMapped]
+  
     public class PersonneVM
     {
-        private string Nom { get; set; }
-        private string Prenom { get; set; }
-        private DateTime DateNaissance { get; set; }
-        private string Adresse { get; set; }
-        private string AdresseEmail { get; set; }
-        private string Telephone { get; set; }
-
-        private string Cin { get; set; }
+        public string Nom { get; set; }
+        public string Prenom { get; set; }
+        public DateTime DateNaissance { get; set; }
+        public string Adresse { get; set; }
+        public string AdresseEmail { get; set; }
+        public string Telephone { get; set; }
+   
+        public string Cin { get; set; }
 
     }
 }

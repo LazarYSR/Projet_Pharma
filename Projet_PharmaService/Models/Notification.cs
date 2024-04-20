@@ -9,7 +9,7 @@ namespace Projet_PharmaService.Models
     {
         [Key]
         public int NotificationId { get; set; }
-        public int Destinatire { get; set; }
+        public int Destinataire { get; set; }
         public string Message { get; set; }
         public DateTime Date { get; set; }
         public DateTime Heure { get; set; }
@@ -22,7 +22,7 @@ namespace Projet_PharmaService.Models
 
         public Notification(NotificationVM uvm)
         {
-            this.Destinatire = uvm.Destinatire;
+            this.Destinataire = uvm.Destinataire;
             this.Message = uvm.Message;
             this.Date = DateTime.Now;
             this.Heure = DateTime.Now;

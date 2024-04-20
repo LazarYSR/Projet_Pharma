@@ -27,6 +27,7 @@ namespace Projet_PharmaService.ViewModels
         [Display(Name = "QR")]
         public string QR { get; set; }
 
+        [Required]
         public Livreur Livreur { get; set; }
         public int LivreurId { get; set; }
 

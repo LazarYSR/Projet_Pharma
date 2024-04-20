@@ -1,4 +1,5 @@
-﻿using Projet_PharmaService.ViewModels;
+﻿using Projet_PharmaService.Models;
+using Projet_PharmaService.ViewModels;
 using System.ComponentModel.DataAnnotations;
 
 namespace Projet_PharmaService.ViewModels
@@ -11,8 +12,9 @@ namespace Projet_PharmaService.ViewModels
         [Required(ErrorMessage = "Le champ est invalid.")]
         [Display(Name = "Catégorie")]
         public string category { get; set; }
-      
+     
+        [Required]
         [Display(Name = "Médicaments")]
-        public ICollection<MedicamentVM> medicaments { get; set; }
+        public ICollection<Medicament> medicaments { get; set; }
     }
 }

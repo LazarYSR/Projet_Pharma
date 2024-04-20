@@ -25,9 +25,11 @@ namespace Projet_PharmaService.ViewModels
         [Display(Name = "Statut")]
         public string Status { get; set; }
 
+        [Required]
         public LivreurVM Livreur { get; set; }
         public int LivreurId { get; set; }
 
+        [Required]
         public PharmacieVM Pharmacie { get; set; }
         public int PharmacieId { get; set; }
     }

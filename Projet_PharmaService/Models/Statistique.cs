@@ -1,4 +1,4 @@
-﻿using Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore;
+﻿
 using Projet_PharmaService.statistiques;
 using Projet_PharmaService.ViewModels;
 using System.ComponentModel.DataAnnotations;
@@ -28,7 +28,7 @@ namespace Projet_PharmaService.Models
             this.nombreVentes = uvm.nombreVentes;
             this.chifreDaffaire = uvm.chifreDaffaire;
             this.margeBeneficiaire = uvm.margeBeneficiaire;
-           // this.Stock = uvm.Stock;
+            this.Stock = uvm.Stock;
         }
     }
 }

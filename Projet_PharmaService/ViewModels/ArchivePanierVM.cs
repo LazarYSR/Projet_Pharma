@@ -1,4 +1,5 @@
 ﻿using Microsoft.Build.Framework;
+using Projet_PharmaService.Models;
 using System.ComponentModel.DataAnnotations;
 
 namespace Projet_PharmaService.ViewModels
@@ -33,8 +34,7 @@ namespace Projet_PharmaService.ViewModels
         [Display(Name = "Mode de Paiement")]
         public string modePaiment { get; set; }
 
-        public PanierVM panier { get; set; }
-
+        public Panier panier { get; set; }
         public int PanierId { get; set; }
 
     }
